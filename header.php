@@ -44,6 +44,16 @@ $business_schema = [
   <meta property="og:image" content="<?= e(site_url($hero_image)) ?>">
   <meta property="og:image:alt" content="<?= e($hero_alt) ?>">
   <meta name="twitter:card" content="summary_large_image">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3DMRWHDXF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X3DMRWHDXF');
+</script>
+
   <script type="application/ld+json"><?= json_encode($business_schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
   <?php if (array_key_exists($canonical_path, service_pages())): ?>
   <script type="application/ld+json"><?= json_encode(['@context'=>'https://schema.org','@type'=>'Service','name'=>service_pages()[$canonical_path] . ' in West Vancouver','url'=>site_url($canonical_path),'description'=>$meta_description,'serviceType'=>service_pages()[$canonical_path],'areaServed'=>['@type'=>'City','name'=>'West Vancouver'],'provider'=>['@id'=>site_url() . '#business']], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
