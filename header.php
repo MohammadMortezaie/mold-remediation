@@ -28,6 +28,7 @@ $business_schema = [
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="p3h4MZICdzZI3dxIMiwkmFVYpztaBVTSqsAB6H2QDRg">
   <title><?= e($page_title) ?></title>
   <meta name="description" content="<?= e($meta_description) ?>">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
