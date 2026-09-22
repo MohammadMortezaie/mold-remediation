@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title">
+  <title id="title">West Vancouver Mold Services</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f4054"/><stop offset="1" stop-color="#087a73"/></linearGradient></defs>
+  <path d="M36 3 63 13v19c0 17-10.5 29.4-27 37C19.5 61.4 9 49 9 32V13L36 3Z" fill="url(#g)"/>
+  <path d="m16 35 12-14 7 8 7-10 15 16" fill="none" stroke="#dcefed" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22 43c8-6 20-6 28 0-8 9-20 12-28 0Z" fill="#63d4c7"/>
+  <path d="M36 37v16" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M29 48c2 3 4 5 7 6m7-6c-2 3-4 5-7 6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>

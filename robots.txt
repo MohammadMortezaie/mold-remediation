@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /form-handler.php
 
 Sitemap: https://moldremediationwestvancouver.ca/sitemap.xml
+
