@@ -58,14 +58,14 @@ function csrf_token(): string
 function service_pages(): array
 {
     return [
-        'mold-testing.php' => 'Mold Testing',
-        'mold-detection.php' => 'Mold Detection',
-        'black-mold-inspection.php' => 'Black Mold Inspection',
-        'attic-mold-inspection.php' => 'Attic Mold Inspection',
-        'crawl-space-mold-inspection.php' => 'Crawl Space Mold Inspection',
-        'condo-mold-inspection.php' => 'Condo Mold Inspection',
-        'commercial-mold-inspection.php' => 'Commercial Mold Inspection',
-        'air-quality-testing.php' => 'Air Quality Testing',
+        'mold-testing' => 'Mold Testing',
+        'mold-detection' => 'Mold Detection',
+        'black-mold-inspection' => 'Black Mold Inspection',
+        'attic-mold-inspection' => 'Attic Mold Inspection',
+        'crawl-space-mold-inspection' => 'Crawl Space Mold Inspection',
+        'condo-mold-inspection' => 'Condo Mold Inspection',
+        'commercial-mold-inspection' => 'Commercial Mold Inspection',
+        'air-quality-testing' => 'Air Quality Testing',
     ];
 }
 
@@ -84,7 +84,7 @@ function render_lead_form(string $source): void
       <p class="form-intro">Send a few details and we’ll follow up about your West Vancouver property.</p>
       <?php if ($status === 'success'): ?><div class="form-alert success" role="status">Thank you. Your request was sent successfully.</div><?php endif; ?>
       <?php if ($status === 'error'): ?><div class="form-alert error" role="alert">We couldn’t send your request. Please call (604) 800-3900.</div><?php endif; ?>
-      <form class="lead-form" action="/form-handler.php" method="post">
+      <form class="lead-form" action="/contact-submit" method="post">
         <input type="hidden" name="csrf_token" value="<?= e(csrf_token()) ?>">
         <input type="hidden" name="source_page" value="<?= e($source) ?>">
         <input type="hidden" name="recaptcha_token" value="">

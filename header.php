@@ -64,10 +64,10 @@ $business_schema = [
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Open navigation">☰</button>
       <nav class="nav-links" id="main-navigation" aria-label="Main navigation">
         <a href="/"<?= $current_page === 'index.php' ? ' aria-current="page"' : '' ?>>Home</a>
-        <details class="nav-menu"><summary>Services</summary><div class="nav-dropdown"><?php foreach ($services as $url => $label): ?><a href="/<?= e($url) ?>"<?= $current_page === $url ? ' aria-current="page"' : '' ?>><?= e($label) ?></a><?php endforeach; ?></div></details>
+        <details class="nav-menu"><summary>Services</summary><div class="nav-dropdown"><?php foreach ($services as $url => $label): ?><a href="/<?= e($url) ?>"<?= $canonical_path === $url ? ' aria-current="page"' : '' ?>><?= e($label) ?></a><?php endforeach; ?></div></details>
         <details class="nav-menu"><summary>Areas</summary><div class="nav-dropdown areas-dropdown"><?php foreach ($areas as $area): ?><a href="/#service-areas"><?= e($area) ?></a><?php endforeach; ?></div></details>
-        <a href="/about.php"<?= $current_page === 'about.php' ? ' aria-current="page"' : '' ?>>About</a>
-        <a href="/contact.php"<?= $current_page === 'contact.php' ? ' aria-current="page"' : '' ?>>Contact</a>
+        <a href="/about"<?= $canonical_path === 'about' ? ' aria-current="page"' : '' ?>>About</a>
+        <a href="/contact"<?= $canonical_path === 'contact' ? ' aria-current="page"' : '' ?>>Contact</a>
       </nav>
       <a class="phone phone-header" href="tel:+16048003900"><span>Call for help</span><strong>(604) 800-3900</strong></a>
     </div>

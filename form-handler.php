@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 function safe_return_path(string $source): string
 {
-    $allowed = array_merge(['', 'index.php', 'about.php', 'contact.php'], array_keys(service_pages()));
+    $allowed = array_merge(['', 'about', 'contact'], array_keys(service_pages()));
     $source = ltrim(parse_url($source, PHP_URL_PATH) ?: '', '/');
     return in_array($source, $allowed, true) ? '/' . $source : '/';
 }

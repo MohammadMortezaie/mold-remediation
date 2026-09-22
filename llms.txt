@@ -9,16 +9,16 @@ Canonical website: https://moldremediationwestvancouver.ca/
 ## Main pages
 
 - [Mold Remediation West Vancouver](https://moldremediationwestvancouver.ca/): Main service overview, remediation process, local coverage and frequently asked questions.
-- [Mold Testing](https://moldremediationwestvancouver.ca/mold-testing.php): Targeted air, surface and material sampling explained in building context.
-- [Mold Detection](https://moldremediationwestvancouver.ca/mold-detection.php): Investigation of hidden moisture, musty odours and concealed mold concerns.
-- [Black Mold Inspection](https://moldremediationwestvancouver.ca/black-mold-inspection.php): Assessment of dark growth without identifying mold by colour alone.
-- [Attic Mold Inspection](https://moldremediationwestvancouver.ca/attic-mold-inspection.php): Roof-space moisture, ventilation, condensation and leak investigation.
-- [Crawl Space Mold Inspection](https://moldremediationwestvancouver.ca/crawl-space-mold-inspection.php): Below-floor moisture, drainage, plumbing and framing assessment.
-- [Condo Mold Inspection](https://moldremediationwestvancouver.ca/condo-mold-inspection.php): Unit and strata-context moisture investigation.
-- [Commercial Mold Inspection](https://moldremediationwestvancouver.ca/commercial-mold-inspection.php): Documented assessment for commercial and managed properties.
-- [Air Quality Testing](https://moldremediationwestvancouver.ca/air-quality-testing.php): Mold-related indoor air sampling and interpretation.
-- [About](https://moldremediationwestvancouver.ca/about.php): Service approach and local property context.
-- [Contact](https://moldremediationwestvancouver.ca/contact.php): Phone and enquiry form.
+- [Mold Testing](https://moldremediationwestvancouver.ca/mold-testing): Targeted air, surface and material sampling explained in building context.
+- [Mold Detection](https://moldremediationwestvancouver.ca/mold-detection): Investigation of hidden moisture, musty odours and concealed mold concerns.
+- [Black Mold Inspection](https://moldremediationwestvancouver.ca/black-mold-inspection): Assessment of dark growth without identifying mold by colour alone.
+- [Attic Mold Inspection](https://moldremediationwestvancouver.ca/attic-mold-inspection): Roof-space moisture, ventilation, condensation and leak investigation.
+- [Crawl Space Mold Inspection](https://moldremediationwestvancouver.ca/crawl-space-mold-inspection): Below-floor moisture, drainage, plumbing and framing assessment.
+- [Condo Mold Inspection](https://moldremediationwestvancouver.ca/condo-mold-inspection): Unit and strata-context moisture investigation.
+- [Commercial Mold Inspection](https://moldremediationwestvancouver.ca/commercial-mold-inspection): Documented assessment for commercial and managed properties.
+- [Air Quality Testing](https://moldremediationwestvancouver.ca/air-quality-testing): Mold-related indoor air sampling and interpretation.
+- [About](https://moldremediationwestvancouver.ca/about): Service approach and local property context.
+- [Contact](https://moldremediationwestvancouver.ca/contact): Phone and enquiry form.
 
 ## Important context
 
@@ -26,4 +26,3 @@ Canonical website: https://moldremediationwestvancouver.ca/
 - Mold testing is presented as one part of a property and moisture investigation.
 - Medical diagnosis and legal responsibility are outside the scope of the website.
 - Service content is focused on West Vancouver neighbourhoods and property types.
-
