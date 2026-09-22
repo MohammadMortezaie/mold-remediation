@@ -9,6 +9,7 @@ Canonical website: https://moldremediationwestvancouver.ca/
 ## Main pages
 
 - [Mold Remediation West Vancouver](https://moldremediationwestvancouver.ca/): Main service overview, remediation process, local coverage and frequently asked questions.
+- [Mold Inspection West Vancouver](https://moldremediationwestvancouver.ca/mold-inspection-west-vancouver): Complete property inspection for visible growth, musty odours, water damage and moisture concerns.
 - [Mold Testing](https://moldremediationwestvancouver.ca/mold-testing): Targeted air, surface and material sampling explained in building context.
 - [Mold Detection](https://moldremediationwestvancouver.ca/mold-detection): Investigation of hidden moisture, musty odours and concealed mold concerns.
 - [Black Mold Inspection](https://moldremediationwestvancouver.ca/black-mold-inspection): Assessment of dark growth without identifying mold by colour alone.

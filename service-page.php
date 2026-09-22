@@ -47,6 +47,13 @@ require __DIR__ . '/header.php';
   <div class="image-copy"><p class="eyebrow dark"><?= e($page['detail_kicker']) ?></p><h2><?= e($page['detail_heading']) ?></h2><?php foreach ($page['detail_paragraphs'] as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?><ul class="check-list"><?php foreach ($page['detail_points'] as $point): ?><li><?= e($point) ?></li><?php endforeach; ?></ul></div>
 </section>
 
+<?php if (!empty($page['related_services'])): ?>
+<section class="section"><div class="wrap">
+  <div class="content-grid"><div><p class="eyebrow dark">Choose the right assessment</p><h2>Specialized mold inspection services</h2></div><div class="prose"><p>Different building areas create different moisture patterns. Explore the inspection service that best matches your concern.</p></div></div>
+  <div class="service-cards"><?php foreach ($page['related_services'] as $service): ?><article class="service-card"><h3><?= e($service[0]) ?></h3><p><?= e($service[1]) ?></p><p><a href="/<?= e($service[2]) ?>">View <?= e(strtolower($service[0])) ?> →</a></p></article><?php endforeach; ?></div>
+</div></section>
+<?php endif; ?>
+
 <section class="area-section section" id="service-areas"><div class="wrap area-grid">
   <div><p class="eyebrow dark">West Vancouver coverage</p><h2><?= e($page['local_heading']) ?></h2><?php foreach ($page['local_paragraphs'] as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?></div>
   <ul class="areas" aria-label="West Vancouver service neighbourhoods"><li>Ambleside</li><li>Dundarave</li><li>British Properties</li><li>Caulfeild</li><li>Horseshoe Bay</li><li>Eagle Harbour</li><li>Gleneagles</li><li>West Bay</li><li>Sentinel Hill</li><li>Upper Levels</li></ul>
