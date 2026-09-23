@@ -66,7 +66,7 @@ $business_schema = [
 <body data-recaptcha-site-key="<?= e($recaptcha_site_key) ?>">
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="topline">Same day mold inspection in Vancouver</div>
+    <div class="topline">Same Day Mold Inspection &amp; Remediation in West Vancouver</div>
     <div class="nav wrap">
       <a class="brand" href="/" aria-label="West Vancouver Mold Services home">
         <img src="/image/west-vancouver-mold-logo.svg" alt="" width="64" height="64">

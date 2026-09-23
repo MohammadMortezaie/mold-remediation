@@ -58,6 +58,7 @@ function csrf_token(): string
 function service_pages(): array
 {
     return [
+        'mold-removal-west-vancouver' => 'Mold Removal',
         'mold-inspection-west-vancouver' => 'Mold Inspection',
         'mold-testing' => 'Mold Testing',
         'mold-detection' => 'Mold Detection',
