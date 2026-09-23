@@ -36,9 +36,7 @@ if ($postedCsrf === '' || empty($_SESSION['csrf_token']) || !hash_equals($_SESSI
 $name = trim(str_replace(["\r", "\n"], ' ', strip_tags((string) ($_POST['full_name'] ?? ''))));
 $email = filter_var(trim((string) ($_POST['email'] ?? '')), FILTER_VALIDATE_EMAIL);
 $phone = trim(preg_replace('/[^0-9+().\-\s]/', '', (string) ($_POST['phone'] ?? '')) ?? '');
-$message = trim(strip_tags((string) ($_POST['message'] ?? '')));
-
-if ($name === '' || $email === false || strlen($phone) < 7 || $message === '' || strlen($name) > 100 || strlen($message) > 2000) {
+if ($name === '' || $email === false || strlen($phone) < 7 || strlen($name) > 100) {
     fail_form($returnPath);
 }
 
@@ -74,7 +72,7 @@ if ($mailTo === false || $mailFrom === false) {
 }
 
 $subject = 'West Vancouver mold website lead: ' . $name;
-$body = "New website enquiry\n\nName: {$name}\nEmail: {$email}\nPhone: {$phone}\nSource page: {$returnPath}\n\nMessage:\n{$message}\n";
+$body = "New free inspection request\n\nName: {$name}\nPhone: {$phone}\nEmail: {$email}\nSource page: {$returnPath}\n";
 $headers = [
     'From: West Vancouver Mold Website <' . $mailFrom . '>',
     'Reply-To: ' . $email,

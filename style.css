@@ -44,7 +44,7 @@ img { display: block; max-width: 100%; }
 .menu-toggle { display: none; border: 1px solid var(--line); background: #fff; color: var(--navy); width: 44px; height: 44px; border-radius: 3px; font-size: 1.3rem; cursor: pointer; }
 
 .trust-strip { background: #f5faf9; border-bottom: 1px solid var(--line); }
-.trust-grid { min-height: 73px; display: grid; grid-template-columns: repeat(6, 1fr); align-items: center; gap: 18px; }
+.trust-grid { min-height: 73px; display: grid; grid-template-columns: repeat(7, 1fr); align-items: center; gap: 14px; }
 .trust-item { display: flex; align-items: center; justify-content: center; gap: 9px; color: var(--navy); font-size: .76rem; font-weight: 800; text-align: left; }
 .trust-item img { width: 51px; height: 32px; object-fit: contain; }
 .trust-icon { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 50%; background: var(--teal); color: #fff; font-size: .86rem; }

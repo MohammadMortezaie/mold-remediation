@@ -81,11 +81,11 @@ function render_lead_form(string $source): void
     $status = $_GET['form'] ?? '';
     ?>
     <aside class="lead-card" aria-labelledby="request-help-title">
-      <p class="form-kicker">Request a callback</p>
-      <h2 id="request-help-title">Tell us what you found</h2>
-      <p class="form-intro">Send a few details and we’ll follow up about your West Vancouver property.</p>
+      <p class="form-kicker">Free mold inspection</p>
+      <h2 id="request-help-title">Request your free inspection</h2>
+      <p class="form-intro">Enter your contact details and our West Vancouver team will follow up.</p>
       <?php if ($status === 'success'): ?><div class="form-alert success" role="status">Thank you. Your request was sent successfully.</div><?php endif; ?>
-      <?php if ($status === 'error'): ?><div class="form-alert error" role="alert">We couldn’t send your request. Please call (604) 800-3900.</div><?php endif; ?>
+      <?php if ($status === 'error'): ?><div class="form-alert error" role="alert">We couldn’t send your request. Please call (604)800-3900.</div><?php endif; ?>
       <form class="lead-form" action="/contact-submit" method="post">
         <input type="hidden" name="csrf_token" value="<?= e(csrf_token()) ?>">
         <input type="hidden" name="source_page" value="<?= e($source) ?>">
@@ -93,11 +93,10 @@ function render_lead_form(string $source): void
         <div class="hp-field" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
         <label>Full name <span>*</span><input type="text" name="full_name" maxlength="100" autocomplete="name" required></label>
         <div class="form-row">
-          <label>Email <span>*</span><input type="email" name="email" maxlength="150" autocomplete="email" required></label>
           <label>Phone number <span>*</span><input type="tel" name="phone" maxlength="30" autocomplete="tel" required></label>
+          <label>Email <span>*</span><input type="email" name="email" maxlength="150" autocomplete="email" required></label>
         </div>
-        <label>Message <span>*</span><textarea name="message" rows="4" maxlength="2000" required placeholder="Where is the issue and what are you seeing?"></textarea></label>
-        <button type="submit">Request an assessment <span aria-hidden="true">→</span></button>
+        <button type="submit">Request free inspection <span aria-hidden="true">→</span></button>
         <p class="form-note">Protected by reCAPTCHA. Google’s Privacy Policy and Terms apply.</p>
       </form>
     </aside>

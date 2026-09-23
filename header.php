@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/functions.php';
-$page_title = $page_title ?? 'Mold Remediation West Vancouver - (604) 800-3900';
-$meta_description = $meta_description ?? 'Mold remediation services in West Vancouver. Call (604) 800-3900.';
+$page_title = $page_title ?? 'Mold Remediation West Vancouver - (604)800-3900';
+$meta_description = $meta_description ?? 'Mold remediation services in West Vancouver. Call (604)800-3900.';
 $canonical_path = $canonical_path ?? '';
 $hero_image = $hero_image ?? 'image/inspecting-mold.webp';
 $hero_alt = $hero_alt ?? 'Mold remediation specialist in West Vancouver';
@@ -80,13 +80,14 @@ $business_schema = [
         <a href="/about"<?= $canonical_path === 'about' ? ' aria-current="page"' : '' ?>>About</a>
         <a href="/contact"<?= $canonical_path === 'contact' ? ' aria-current="page"' : '' ?>>Contact</a>
       </nav>
-      <a class="phone phone-header" href="tel:+16048003900"><span>Call for help</span><strong>(604) 800-3900</strong></a>
+      <a class="phone phone-header" href="tel:+16048003900"><span>Call for help</span><strong>(604)800-3900</strong></a>
     </div>
   </header>
   <section class="trust-strip" aria-label="Credentials and service benefits"><div class="wrap trust-grid">
     <div class="trust-item"><img src="/image/IICRCLogo-certificate.webp" alt="IICRC certificate logo"><span>IICRC Certified</span></div>
     <div class="trust-item"><img src="/image/VRCALogo-certificate.webp" alt="VRCA certificate logo"><span>VRCA Certificate</span></div>
     <div class="trust-item"><span class="trust-icon" aria-hidden="true">CA</span><span>Proudly Canadian</span></div>
+    <div class="trust-item"><span class="trust-icon" aria-hidden="true">✓</span><span>Free Mold Inspection</span></div>
     <div class="trust-item"><span class="trust-icon" aria-hidden="true">✓</span><span>Fast Response</span></div>
     <div class="trust-item"><span class="trust-icon" aria-hidden="true">✓</span><span>Clear Reports</span></div>
     <div class="trust-item"><span class="trust-icon" aria-hidden="true">✓</span><span>Local Team</span></div>
